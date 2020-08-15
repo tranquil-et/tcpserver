@@ -5,6 +5,13 @@ VisualStudioVersion = 16.0.30330.147
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tcpserver", "tcpserver\tcpserver.csproj", "{60CB4B71-1B82-40C6-9514-5731245FA6AC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2AC9B427-FE05-4A1F-86F7-88AF139247DE}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{DC8C3A83-1A68-41E2-80B9-D1615AAFC7AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +22,10 @@ Global
 		{60CB4B71-1B82-40C6-9514-5731245FA6AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60CB4B71-1B82-40C6-9514-5731245FA6AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60CB4B71-1B82-40C6-9514-5731245FA6AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC8C3A83-1A68-41E2-80B9-D1615AAFC7AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC8C3A83-1A68-41E2-80B9-D1615AAFC7AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC8C3A83-1A68-41E2-80B9-D1615AAFC7AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC8C3A83-1A68-41E2-80B9-D1615AAFC7AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
